@@ -10,7 +10,7 @@ try:
 finally:
     arquivo.close()
 
-open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+#open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
 
 # Abrir um arquivo para leitura:
 arquivo = open('exemplo.txt', 'r')
