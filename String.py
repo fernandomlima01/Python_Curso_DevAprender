@@ -22,7 +22,7 @@ print("C:\Users\ferna\Documents\Rascunho.txt")  # da erro
 # Colocando barra invertida (Escape) para ignorar a barra invertida existente
 print("C:\\Users\\ferna\\Documents\\Rascunho.txt")
 
-# Contar a quantidade de cracteres
+# Contar a quantidade de caracteres
 nome = 'Carol'
 print(len(nome))
 
@@ -30,3 +30,22 @@ print(len(nome))
 print('Vamos codar!')
 print("Vamos 'codar!'")
 print("Vamos\n'codar'")
+
+# \u ou \U para incluir caracteres Unicode:
+s = "\u2600"  # Sol (☀)
+print(s)
+
+# Escape hexadecimal:
+# Permite especificar caracteres com valores hexadecimais:
+s = "\x41"  # Representa 'A'
+print(s)
+
+# Escape octal:
+# Permite especificar caracteres usando notação octal:
+s = "\101"  # Representa 'A'
+print(s)
+
+# Raw Strings:
+# Se quiser evitar que os caracteres de escape sejam interpretados, use r (raw strings) antes das aspas:
+raw = r"C:\Users\nome"
+print(raw)  # C:\Users\nome

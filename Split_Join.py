@@ -17,7 +17,6 @@ print(hashtags.split(' #'))
 print(hashtags.split('#', 3))  # '#'-indicando o separador; 3-quantas ocorrências até ele parar
 print(hashtags.split('#', 5))  # '#'-indicando o separador; 5-quantas ocorrências até ele parar
 
-
 # Join - Junta/inseri as Strings
 # Como concatenar (combinar) strings
 hashtag_separadas_por_espaco = hashtags.split(' ')
@@ -27,7 +26,6 @@ print(', '.join(hashtag_separadas_por_espaco))
 print('.'.join(hashtag_separadas_por_espaco))
 print('. '.join(hashtag_separadas_por_espaco))
 print(' '.join(hashtag_separadas_por_espaco))
-
 
 # DESAFIO
 # ​Desafio 1: Transforme a frase1 em uma lista de palavras e guarde o resultado em uma variável chamada palavras1

@@ -8,8 +8,6 @@ print(objeto.index('d'))  # Mostra o número do Indíce do caractere
 # Mostrando o que ta dentro do index
 print(objeto[objeto.index('d')]) 
 
-
-
 # Acessando partes de uma string
 link = 'facebook.com/devaprender'
 #       012345678901234567890123
@@ -34,6 +32,11 @@ print(link[5:])
 # Começa do indice 0 até o -5 (o indece -5 não é impresso)
 print(link[:-5])
 
+# fcbo.o/earne (pulando de 2 em 2)
+print(link[::2])   
+
+# rednerpaved/moc.koobecaf (string invertida)
+print(link[::-1])
 
 # Caractere Repetido
 # Acessando a última ocorrência de um caractere
